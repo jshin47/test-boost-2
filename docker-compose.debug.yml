@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  boosted-baloo:
+    image: boosted-baloo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - :
