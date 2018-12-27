@@ -21,8 +21,8 @@ private:
 
     boost::python::dict lastEnumeratedAsksPythonDictionary;
     boost::python::dict lastEnumeratedBidsPythonDictionary;
-    bool asksNeedsEnumeration = true;
-    bool bidsNeedsEnumeration = true;
+    bool asksNeedsEnumeration;
+    bool bidsNeedsEnumeration;
 };
 
 
